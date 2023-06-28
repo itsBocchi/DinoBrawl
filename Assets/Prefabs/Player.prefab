@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 944154657330719184}
   - component: {fileID: 944154657330719185}
   - component: {fileID: 1274010202}
+  - component: {fileID: 1274010206}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -103,6 +104,7 @@ MonoBehaviour:
   jumpForce: 5
   pushForce: 5
   pushCooldown: 2
+  pushPrefab: {fileID: 0}
   left: 97
   right: 115
   jump: 120
@@ -128,6 +130,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &1274010206
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944154657330719199}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &944154658323517081
 GameObject:
   m_ObjectHideFlags: 0
